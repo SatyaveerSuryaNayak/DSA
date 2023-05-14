@@ -1,14 +1,14 @@
 /**
- * This is Problem is Same as The 0/1 KnapSack Problem Where We are being give
- * a weight=[], and a value=[] and a bag with some weight and we have to find 
+ * This Problem is Same as The 0/1 KnapSack Problem Where We are being given
+ * a weight = [], and a value = [] and a bag with some weight and we have to find 
  * what is the maximum profit we can get taking element from the weight array 
- * only difference s that we can take element multiple times under a constraint
- * taken items total wight must not exceed the bag weight
+ * only difference is that we can take element multiple times under a constraint,
+ * taken items total weight must not exceed the bag weight
  */
 
 /**
- * input -> wt=[2,4,6] , val=[5,11,13],W=10
- * output -> Maximum Profit -> 26
+ * input -> wt = [2,4,6] , val = [5,11,13],W = 10
+ * output -> Maximum Profit -> 27
  * explanation:
  * wt->[6,4],val->[13,11], profit->24
  * wt->[4,4,2],val->[11,11,5], profit->27
