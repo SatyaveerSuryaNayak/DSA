@@ -53,6 +53,8 @@ for (let i = 0; i < n; i++) {
 
             let down = 0
             if (i > 0) down += prev[i - 1]
+            
+            curr[j] = down + right
         }
     }
     prev = curr
